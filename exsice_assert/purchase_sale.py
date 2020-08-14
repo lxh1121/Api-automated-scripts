@@ -26,7 +26,7 @@ class UserIssue:
 
     def loging(self, data):
         headers = {"Content-Type": "application/json"}
-        url = host + "/uc/auth/access/login"
+        url = host + "/"
         data1 = dec.encrypt(json.dumps(data))
         print(data1)
         login_ = self.send_post(url, data1, headers)
@@ -42,42 +42,41 @@ class UserIssue:
         return token_list, nickName_list
 
     def purchaseIssue(self, data, headers):
-        """采购单发布"""
+      
         url = host + ""
         res = self.send_post(url, data, headers)
         return res
 
     def purOrderList(self, state, headers):
-        "采购单列表"
+        
         data = {"state": state, "pageNum": 1, "pageSize": 10}
         url = host + ""
         res = self.send_get(url, data, headers)
-        purId = res['data']['list'][0].get('purchaseId') #采购单id
-        return purId
+        purId = res['data']['list'][0].get('purchaseId') #
 
     def procurementDetail(self, purchaseId, headers):
-        "采购单详情"
+       
         url = host + '/'
         data = {'purchaseId': purchaseId}
         res = self.send_get(url,data, headers)
         # print(res)
-        quotationsId = res['data']['quotationList'][0]['quotationId'] #获取一条报价id
+        quotationsId = res['data']['quotationList'][0]['quotationId'] #
         return quotationsId
 
-    def address_list(self, headers): #收货地址列表
+    def address_list(self, headers): #
         url = host + '/m'
         data = {}
         res = self.send_get(url, data, headers)
         address_id = res['data']['list'][0]['addressId']
         return address_id
 
-    def address_add(self, data, headers): #添加收货地址
+    def address_add(self, data, headers): #
         url = host + '/m'
         res = self.send_post(url, data, headers)
         return True
 
     def quotation(self, data, headers):
-        "添加报价"
+ 
         url = host + "/"
         res = self.send_post(url, data, headers)
         return res
@@ -115,16 +114,16 @@ if __name__ == '__main__':
         token_list = login_res[0]
         nickName_list = login_res[1]
 
-        #添加收货地址
-        # aredId1 = random.choice(sql_sele_data).get('id')
-        # data = {"aredId": aredId1, "detailAddress": "市里头详细地址汇总1号", "receiveName": nickName_list[i], "state":2, "tel": phone[i]}
-        # lxhUser.address_add(data, token_list[i])
+    
+        aredId1 = random.choice(sql_sele_data).get('id')
+        data = {}
+        lxhUser.address_add(data, token_list[i])
 
-    # for n in range(20): #批量生成采购单
-    #     for i in range(5):
-    #         headers = {"token": token_list[i]}
-    #         address_id = lxhUser.address_list(headers)
-    #         categoryId = "2000"+ str(i+1)
+    for n in range(20): #
+         for i in range(5):
+             headers = {"token": token_list[i]}
+             address_id = lxhUser.address_list(headers)
+             categoryId = "2000"+ str(i+1)
     #         model_index = 30001
     #         targets = json.dumps(detaild_data[i])
     #         amount = str(random.randint(1,1000))
@@ -143,16 +142,15 @@ if __name__ == '__main__':
     #         #     expiration_data = nowtime+ "-" + str(hour+m)
     #         # else:
     #         #     expiration_data = nowtime+ "-" + "23"
-    #         expiration_data = "2021-06-09-13"
     #         pur_data = {
-    #             "categoryId": int(categoryId), "modelId": model_index, "amount": amount, "expectedTime": nowtime, "stopTime": expiration_data, "linkMan": nickName_list[i], "tel": phone[i], "addressId": address_id, "productType": 1, "targets": targets, "sparePartsId": 0, "productId": 0
+    #              
     #         }
     #         # print(pur_data)
     #         pur_res = lxhUser.purchaseIssue(pur_data, headers)
     #         print("采购单====>%s"%pur_res)
     #         purId = lxhUser.purOrderList(1, headers)
     #         quotation_data = random.randint(3,5)
-    #         for j in range(quotation_data):  #随机报价0-4条
+    #         for j in range(quotation_data):  #
     #             if j == i:
     #                 continue
     #             else:
@@ -163,7 +161,7 @@ if __name__ == '__main__':
     #                 taxRate = round(random.uniform(0,99))
     #                 supplyNumber = random.randint(10,10000)
     #                 supplyDay = random.randint(3, 20)
-    #                 quote_data = {"id": str(purId), "price": price, "linkMan": nickName_list[j], "tel": phone[j], "areaId": aredId, "targets": targets, "taxRate": taxRate, "supplyNumber": supplyNumber, "supplyDay": supplyDay, "type": 1} #报价请求data
+    #                 quote_data = {} #
     #                 quo_res = lxhUser.quotation(quote_data, quoteHeaders)
     #                 print(quo_res)
 
