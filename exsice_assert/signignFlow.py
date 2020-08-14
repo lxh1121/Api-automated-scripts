@@ -45,7 +45,7 @@ class UserSigning:
         data = {"state": state, "pageNum": 1, "pageSize": 10}
         url = host + "/"
         res = self.send_get(url, data, headers)
-        # purId = res['data']['list'][0].get('purchaseId') #采购单id
+        # purId = res['data']['list'][0].get('purchaseId') #
         return res
 
     def procurementDetail(self, purchaseId, headers):
@@ -53,7 +53,7 @@ class UserSigning:
         url = host + '/'
         data = {'purchaseId': purchaseId}
         res = self.send_get(url,data, headers)
-        quotationsId = res['data']['quotationList'][0]['quotationId'] #获取一条报价id
+        quotationsId = res['data']['quotationList'][0]['quotationId'] #
         print(res['data']['quotationList'])
         return quotationsId
 
@@ -138,13 +138,8 @@ if __name__ == '__main__':
         supply_tel = lxhUser.quotationDetail(quotationId, headers) #
         addAlter = lxhUser.addAlternative(quotationId,headers)
         print("%s加入备选----->%s"%(supply_tel,addAlter))
-        contract_data = {"contractId": str(contractId), "quotationId": quotationId, "enterpriseName": "甲方有限责任公司","enterpriseID": "91500000MA60515Y8F", "enterpriseIDType": 1, "corporateRepresentative": name_list[i],"accountName": "户名甲", "bankAccount": "6217920120292847", "openingBank": "浦发银行","tel": "18737553592", "email": "1771602325@qq.com", "personalIDType": 1,"personalID": idcard_list[i], "signState": 1} #身份证签约请求data
-        # contract_data = {"contractId": str(contractId), "quotationId": quotationId, "enterpriseName": "甲方有限责任公司",
-        #                  "enterpriseID": "91500000MA60515Y8F", "enterpriseIDType": 1,
-        #                  "corporateRepresentative": "朱新妹", "accountName": "户名甲",
-        #                  "bankAccount": "6", "openingBank": "浦发银行", "tel": "",
-        #                  "email": "", "personalIDType": 8, "personalID": "",
-        #                  "signState": 1}
+        contract_data = {} #身份证签约请求data
+        # contract_data = {}
         bySign = lxhUser.initiateSign(contract_data, headers) #发起签约
         print("%s发起签约---------->%s"%(phone[1], bySign))
 
@@ -157,12 +152,8 @@ if __name__ == '__main__':
         mySuppleId = info_list[0]  #
         myPurchaseId = info_list[1] #
         #"personalIDType": 13, "personalID": "CH0060005"
-        # mysupple_data = {"enterpriseName": "乙方网络科技集团", "enterpriseID": "91440605590059829L", "enterpriseIDType": 1, "corporateRepresentative": name_list[i+1],"accountName": "户名乙", "bankAccount": "456577899877444", "openingBank": "建设银行","tel": "15703878503", "email": "3023776104@qq.com", "personalIDType": 1,"personalID": idcard_list[i+1], "id": signingId, "mySuppleId": mySuppleId, "myPurchaseId": myPurchaseId, "signState": 2} #身份证同意签约请求data
-        mysupple_data = {"enterpriseName": "乙方网络科技集团", "enterpriseID": "91440605590059829L", "enterpriseIDType": 1,
-                         "corporateRepresentative": "刘正权", "accountName": "户名乙",
-                         "bankAccount": "", "openingBank": "建设银行", "tel": "",
-                         "email": "", "personalIDType": 8, "personalID": "1026973097",
-                         "id": signingId, "mySuppleId": mySuppleId, "myPurchaseId": myPurchaseId, "signState": 2}
+        # mysupple_data = {} #身份证同意签约请求data
+        mysupple_data = {}
         agreeSign = lxhUser.initiateSign(mysupple_data, supply_header) #同意签约
         print("%s同意签约---------->%s"%(supply_tel, agreeSign))
         print("--------------------------------------------------")
