@@ -114,7 +114,6 @@ if __name__ == '__main__':
                 model_index = random.randint(30016,30018)
             placeId = random.choice(sql_sele_data)[0]
             product_data = {
-                "categoryId": int(categoryId), "modelId": model_index, "linkMan": nickName_list[i], "tel": phone[i], "placeOfStock": placeId, "productType": 1, "targets": targets, "sparePartsId": 0, "brand": "灰灰1号", "freightState": 2, "freightExplain": "运费没有", "invoiceType": 2, "manufacturer": "贼帅灰灰生产线", "paymentType": 4, "price": price, "priceType": 2, "stock": stock, "taxRate": taxRate, "banners": str(banners)
             }
             pur_res = lxhUser.productSave(product_data, headers)
             print("现货====>%s"%pur_res)
