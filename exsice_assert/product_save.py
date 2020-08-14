@@ -10,8 +10,7 @@ import random
 import datetime
 from Until.CryDEC import dec
 import json
-# host = "http://47.102.118.32:9224"
-host = "http://192.168.2.200:9024"
+host = "http://0.0.0.0:0000"
 
 
 class UserIssue:
