@@ -10,8 +10,8 @@ import random
 import datetime
 from Until.CryDEC import dec
 import json
-host = "http://192.168.3.125:9024"
-# host = "http://192.168.2.200:9024"
+
+# host = "http://0.0.0.0:0000"
 
 class UserIssue:
     def send_post(self, url, data, headers=None):
@@ -43,21 +43,21 @@ class UserIssue:
 
     def purchaseIssue(self, data, headers):
         """采购单发布"""
-        url = host + "/sale/purchaseOrder/add"
+        url = host + ""
         res = self.send_post(url, data, headers)
         return res
 
     def purOrderList(self, state, headers):
         "采购单列表"
         data = {"state": state, "pageNum": 1, "pageSize": 10}
-        url = host + "/sale/purchaseOrder/list"
+        url = host + ""
         res = self.send_get(url, data, headers)
         purId = res['data']['list'][0].get('purchaseId') #采购单id
         return purId
 
     def procurementDetail(self, purchaseId, headers):
         "采购单详情"
-        url = host + '/sale/purchaseOrder/procurementDetail'
+        url = host + '/'
         data = {'purchaseId': purchaseId}
         res = self.send_get(url,data, headers)
         # print(res)
@@ -65,20 +65,20 @@ class UserIssue:
         return quotationsId
 
     def address_list(self, headers): #收货地址列表
-        url = host + '/mall/address/list'
+        url = host + '/m'
         data = {}
         res = self.send_get(url, data, headers)
         address_id = res['data']['list'][0]['addressId']
         return address_id
 
     def address_add(self, data, headers): #添加收货地址
-        url = host + '/mall/address/add'
+        url = host + '/m'
         res = self.send_post(url, data, headers)
         return True
 
     def quotation(self, data, headers):
         "添加报价"
-        url = host + "/sale/quotation/add"
+        url = host + "/"
         res = self.send_post(url, data, headers)
         return res
 
@@ -92,7 +92,7 @@ if __name__ == '__main__':
     sql_sele_data = sql.sql_select(sql_two, value)
     nowtime = str(datetime.datetime.now()).split(" ")[0]
     hour = datetime.datetime.now().hour
-    phone = ["17730861516","19965412404", "15888643312", "13511110000", "18803932546", "13512345678"]
+    phone = ["19965412404", "15888643312", "13511110000", "18803932546", "13512345678"]
     # assdId = [34, 6, 9, 5, 8]
     detaild_data = [
         [{"id": 1, "value": "4"}, {"id": 2, "value": "4"}, {"id": 3, "value": "4"}, {"id": 4, "value": "4"}],
@@ -111,7 +111,6 @@ if __name__ == '__main__':
 
     for i in range(5):
         login_data = {"account": phone[i], "password": "12345678"}
-        # login_data = {"account":"18803932546", "password":"12345678"}
         login_res = lxhUser.loging(login_data)
         token_list = login_res[0]
         nickName_list = login_res[1]
