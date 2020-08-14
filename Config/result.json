@@ -1,0 +1,35 @@
+{"/mall/":[
+    {
+    "sucess":
+        {
+
+        }
+    },
+    {
+    "error":{}
+    }
+],
+"/web/mall/":[
+    {
+        "sucess":
+        {
+
+        }
+    },
+    {
+    "error":{
+        "status":0,
+        "data":"",
+        "errorCode":1002,
+        "errorDesc":"成功",
+        "timestamp":0
+        }
+    }
+],
+"/web/mall":[
+    {
+        "success":
+        {}
+    }
+]
+}
