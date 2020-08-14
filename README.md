@@ -1,5 +1,4 @@
 # Api-automated-scripts
-Python based interface automation
 ---
 用于api测试，项目整体架构如下
 ---
