@@ -26,7 +26,7 @@ class UserIssue:
 
     def loging(self, data):
         headers = {"Content-Type": "application/json"}
-        url = host + "/uc/auth/access/login"
+        url = host + "/u"
         data1 = dec.encrypt(json.dumps(data))
         login_ = self.send_post(url, data1, headers)
         # print(login_)
@@ -41,25 +41,25 @@ class UserIssue:
         return token_list, nickName_list
 
     def productSave(self, data, headers):
-        """现货发布"""
-        url = host + "/sale/product/save"
+        
+        url = host + "/"
         res = self.send_post(url, data, headers)
         return res
 
     def file_multifile(self, val, headers):
-        "上传图片"
-        url = host + "/mall/fileUpload/multifile"
+        
+        url = host + ""
         file = {
             "Content-Disposition": "form-data",
             "Content-Type": "image/png",
             "filename": "01.jpg",
-            "multipartFile": open("E:\\scray_testData\\sales_img_data\\手轮\\"+ str(val) +".jpg", mode="rb")
+            "multipartFile": open("E\"+ str(val) +".jpg", mode="rb")
         }
         data = {
             'decode': 1
         }
         response = requests.post(url=url, files=file, headers=headers)
-        return response.json()['data']['list'][0]['id']  # 上传图片id
+        return response.json()['data']['list'][0]['id']  # 
 
 
 
@@ -77,29 +77,19 @@ if __name__ == '__main__':
     phone = ["19965412404", "15888643312", "13511110000", "18803932546", "13512345678"]
     assdId = [34, 6, 9, 5, 8]
     detaild_data = [
-        [{"id": 1, "value": "4"}, {"id": 2, "value": "4"}, {"id": 3, "value": "4"}, {"id": 4, "value": "4"}],
-        [{"id": 6, "value": "1"}, {"id": 7, "value": "4"}, {"id": 8, "value": "7"}, {"id": 9, "value": "74"},
-         {"id": 10, "value": "4"}],
-        [{"id": 11, "value": "1"}, {"id": 12, "value": "4"}, {"id": 13, "value": "7"}, {"id": 14, "value": "2"},
-         {"id": 15, "value": "5"}, {"id": 16, "value": "8"}, {"id": 17, "value": "5"}],
-        [{"id": 20, "value": "1"}, {"id": 21, "value": "4"}, {"id": 22, "value": "7"}, {"id": 23, "value": "2"},
-         {"id": 27, "value": "5"}],
-        [{"id": 29, "value": "1"}, {"id": 30, "value": "4"}, {"id": 31, "value": "7"}, {"id": 32, "value": "2"},
-         {"id": 33, "value": "5"}, {"id": 34, "value": "8"}, {"id": 35, "value": "5"}, {"id": 36, "value": "5"},
-         {"id": 126, "value": "5"}],
+     
     ]
     token_list = []
     nickName_list = []
 
     for i in range(5):
         login_data = {"account": phone[i], "password": "12345678"}
-        # login_data = {"account":"18803932546", "password":"12345678"}
         login_res = lxhUser.loging(login_data)
         token_list = login_res[0]
         nickName_list = login_res[1]
 
 
-    for n in range(30): #批量生成现货
+    for n in range(30): #
         for i in range(5):
             headers = {"token": token_list[i]}
             banners = []
