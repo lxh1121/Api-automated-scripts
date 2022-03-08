@@ -1,0 +1,90 @@
+2021-03-10 14:23:00,678 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 14_23_00report.html
+2021-03-10 14:23:00,678 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 14:23:00,678 - logs… - INFO - info-casename: test02login.py
+2021-03-10 14:23:00,785 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 14:30:37,397 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 14_30_37report.html
+2021-03-10 14:30:37,397 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 14:30:37,397 - logs… - INFO - info-casename: test02login.py
+2021-03-10 14:30:37,444 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 14:33:46,001 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 14_33_46report.html
+2021-03-10 14:33:46,001 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 14:33:46,002 - logs… - INFO - info-casename: test02login.py
+2021-03-10 14:33:46,050 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 14:35:36,099 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 14_35_36report.html
+2021-03-10 14:35:36,099 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 14:35:36,100 - logs… - INFO - info-casename: test02login.py
+2021-03-10 14:35:36,142 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 14:36:25,657 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 14_36_25report.html
+2021-03-10 14:36:25,657 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 14:36:25,657 - logs… - INFO - info-casename: test02login.py
+2021-03-10 14:36:25,738 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 14:54:20,599 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 14_54_20report.html
+2021-03-10 14:54:20,599 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 14:54:20,599 - logs… - INFO - info-casename: test02login.py
+2021-03-10 14:54:20,680 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 15:21:13,817 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 15_21_13report.html
+2021-03-10 15:21:13,818 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 15:21:13,818 - logs… - INFO - info-casename: test02login.py
+2021-03-10 15:21:19,782 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 15:25:08,768 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 15_25_08report.html
+2021-03-10 15:25:08,768 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 15:25:08,768 - logs… - INFO - info-casename: test02login.py
+2021-03-10 15:25:09,421 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 16:16:43,263 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 16_16_43report.html
+2021-03-10 16:16:43,264 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 16:16:43,265 - logs… - INFO - info-casename: test02login.py
+2021-03-10 16:16:44,307 - logs… - INFO - 用例名称登录 --- 请求api/user/sendValidateSmsCode.html
+2021-03-10 16:16:44,307 - logs… - INFO - 请求参数{'smsType': 'mobileLogin', 'mobile': '17812121216'}
+2021-03-10 16:16:44,800 - logs… - INFO - 用例名称登录后权限 --- 请求api/user/mobileLogin.html
+2021-03-10 16:16:44,800 - logs… - INFO - 请求参数{'smsCode': '111111', 'mobile': '17812121216'}
+2021-03-10 16:16:45,048 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 16:36:06,123 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 16_36_06report.html
+2021-03-10 16:36:06,125 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 16:36:06,125 - logs… - INFO - info-casename: test02login.py
+2021-03-10 16:36:07,195 - logs… - INFO - 用例名称登录 --- 请求api/user/sendValidateSmsCode.html
+2021-03-10 16:36:07,195 - logs… - INFO - 请求参数{'smsType': 'mobileLogin', 'mobile': '17812121216'}
+2021-03-10 16:36:07,666 - logs… - INFO - 用例名称登录后权限 --- 请求api/user/mobileLogin.html
+2021-03-10 16:36:07,666 - logs… - INFO - 请求参数{'smsCode': '111111', 'mobile': '17812121216'}
+2021-03-10 16:36:07,903 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 16:44:21,307 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 16_44_21report.html
+2021-03-10 16:44:21,307 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 16:44:21,307 - logs… - INFO - info-casename: test02login.py
+2021-03-10 16:44:22,288 - logs… - INFO - 用例名称登录 --- 请求api/user/sendValidateSmsCode.html
+2021-03-10 16:44:22,288 - logs… - INFO - 请求参数{'smsType': 'mobileLogin', 'mobile': '17812121216'}
+2021-03-10 16:44:22,404 - logs… - INFO - 接口响应数据{'code': 200, 'message': 'success'}
+2021-03-10 16:44:22,936 - logs… - INFO - 用例名称登录后权限 --- 请求api/user/mobileLogin.html
+2021-03-10 16:44:22,936 - logs… - INFO - 请求参数{'smsCode': '111111', 'mobile': '17812121216'}
+2021-03-10 16:44:23,203 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 16:47:54,190 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 16_47_54report.html
+2021-03-10 16:47:54,190 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 16:47:54,190 - logs… - INFO - info-casename: test02login.py
+2021-03-10 16:47:55,261 - logs… - INFO - 用例名称登录 --- 请求api/user/sendValidateSmsCode.html
+2021-03-10 16:47:55,261 - logs… - INFO - 请求参数{'smsType': 'mobileLogin', 'mobile': '17812121216'}
+2021-03-10 16:47:55,389 - logs… - INFO - 接口响应数据{'code': 200, 'message': 'success'}
+2021-03-10 16:47:55,950 - logs… - INFO - 用例名称登录后权限 --- 请求api/user/mobileLogin.html
+2021-03-10 16:47:55,950 - logs… - INFO - 请求参数{'smsCode': '111111', 'mobile': '17812121216'}
+2021-03-10 16:47:56,195 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 16:55:46,272 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 16_55_46report.html
+2021-03-10 16:55:46,273 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 16:55:46,273 - logs… - INFO - info-casename: test02login.py
+2021-03-10 16:55:47,272 - logs… - INFO - 用例名称验证码 --- 请求api/user/sendValidateSmsCode.html
+2021-03-10 16:55:47,273 - logs… - INFO - 请求参数{'smsType': 'mobileLogin', 'mobile': '17812121216'}
+2021-03-10 16:55:47,379 - logs… - INFO - 接口响应数据{'code': 200, 'message': 'success'}
+2021-03-10 16:55:47,888 - logs… - INFO - 用例名称登录 --- 请求api/user/mobileLogin.html
+2021-03-10 16:55:47,888 - logs… - INFO - 请求参数{'smsCode': '111111', 'mobile': '17812121216'}
+2021-03-10 16:55:47,970 - logs… - INFO - 接口响应数据{'code': 200, 'message': 'success'}
+2021-03-10 16:55:48,151 - logs… - INFO - 邮件发送开关配置关闭，请打开后发送
+2021-03-10 16:55:59,793 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 16_55_59report.html
+2021-03-10 16:55:59,794 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 16:55:59,794 - logs… - INFO - info-casename: test02login.py
+2021-03-10 16:56:01,778 - logs… - INFO - 用例名称验证码 --- 请求api/user/sendValidateSmsCode.html
+2021-03-10 16:56:01,779 - logs… - INFO - 请求参数{'smsType': 'mobileLogin', 'mobile': '17812121216'}
+2021-03-10 17:00:59,949 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/result/2021-03-10/2021-03-10 17_00_59report.html
+2021-03-10 17:00:59,949 - logs… - INFO - /Users/xhlu/PycharmProjects/InterfaceTest/InterfaceAuto/caselist.txt
+2021-03-10 17:00:59,950 - logs… - INFO - info-casename: test02login.py
+2021-03-10 17:01:01,984 - logs… - INFO - 用例名称验证码 --- 请求api/user/sendValidateSmsCode.html
+2021-03-10 17:01:01,984 - logs… - INFO - 请求参数{'smsType': 'mobileLogin', 'mobile': '17812121216'}
+2021-03-10 17:03:59,642 - logs… - INFO - 接口响应数据{'code': 200, 'message': 'success', 'data': None}
+2021-03-10 17:07:40,450 - logs… - INFO - 用例名称登录 --- 请求api/user/mobileLogin.html
+2021-03-10 17:07:44,582 - logs… - INFO - 请求参数{'smsCode': '111111', 'mobile': '17812121216'}
+2021-03-10 17:09:04,070 - logs… - INFO - 接口响应数据{'code': 200, 'message': 'success', 'data': {'id': '5fc74a674fc6bc17e8d4ff82', 'token': 'T01:DWukMGZRJfGPHZkcfzvuG901bfI2jgscSNf8rP3px77E4dMmKnJFpfVoEsL50Py2zV4ENMNsB09b5nu8kkpqsg', 'nickname': '紫贝壳570163', 'mobile': '17812121216', 'type': 'normal', 'icon': 'http://alpha-2115.caibeike.com/i/6f43d912fe264c0b1af43bc7f110b2aa-9X0E7b-bMOMwkAOhj2', 'sex': '1', 'city': '中国', 'title': '体验师', 'image': None, 'titleLevel': 1, 'applyStatus': 0, 'cardHoldStatus': 0, 'introduction': '任务多婆婆红', 'childForms': [{'bornDate': '2020.09.18', 'sex': '女'}], 'newRegistered': False, 'contribution': 0, 'badgeEntities': None, 'badgeLinkUrl': None, 'honorLevel': 0, 'familyInfo': None, 'tabAuthorities': None, 'roleTypeList': [], 'loginCode': 200, 'deviceVerifyEntity': {'code': 200, 'rightButton': '校验成功', 'leftButton': None, 'remindTitle': None, 'userCode': None}}}

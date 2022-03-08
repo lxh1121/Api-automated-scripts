@@ -1,0 +1,5 @@
+deepdiff
+jsonpath_rw
+pycryptodome
+openpyxl
+requests

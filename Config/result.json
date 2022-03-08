@@ -1,0 +1,148 @@
+{"/trade/ajax/groupon/item/detail/v3.html":[
+    {
+	"code": 200,
+	"message": "success",
+	"data": {
+		"itemId": "621edfb94fc6bc1bee4ded2c",
+		"userId": "5fc74a674fc6bc17e8d4ff82",
+		"loginImage": "http://alpha-2115.caibeike.com/i/6f43d912fe264c0b1af43bc7f110b2aa-9X0E7b-bMOMwkAOhj2",
+		"hasCollect": false,
+		"hasLogin": true,
+		"button": {
+			"title": "立即购买",
+			"subTitle": null,
+			"url": "caibeike://web?url=https%3A%2F%2Fpre.caibeike.net%2Fts%2Fgroupon%2Fordersubmit%3FgrouponItemId%3D4652%26trace%3Dcbk",
+			"btnStatus": 1,
+			"buttonType": 0,
+			"buttonStyleType": 0,
+			"toastTitle": null,
+			"openType": null,
+			"loginRequired": true,
+			"icon": null
+		},
+		"buttons": null,
+		"memberStatus": 3,
+		"directBuy": true,
+		"grouponBuyType": 1,
+		"showDirectGroupon": false,
+		"showDirectBuy": false,
+		"imageUrls": ["http://alpha-2115.caibeike.com/i/55b6d241d3c0292d4005f4f54fbae7f2-qt68Cs-bbfgwiCMhj2@!sn1080"],
+		"brandTitle": "勿动-系统回归测试[2店通用]",
+		"brandList": ["勿动-系统回归测试"],
+		"itemTitle": "65元抢「勿动-系统回归测试」价值230元1大1小1大1小门票畅玩不限时",
+		"recomTags": [],
+		"recomText": [],
+		"soldPrice": "65",
+		"marketPrice": "230",
+		"specialPriceText": null,
+		"hasSpecialPrice": false,
+		"groupNumber": 1,
+		"soldStartTime": 1646190460000,
+		"soldEndTime": 1677640070000,
+		"saleStatus": 2,
+		"showCountdown": false,
+		"firstCanAppointDay": "今天",
+		"showCanAppointDay": true,
+		"showSafeguard": false,
+		"showExplain": true,
+		"saleRules": [],
+		"ruleLink": "caibeike://web?url=https%3A%2F%2Fpre.caibeike.net%2Fm%2Fcommunity%2Fproduct%2Frule%2Fdescription%3FitemId%3D621edfb94fc6bc1bee4ded2c%26itemBizType%3Dgroupon_item",
+		"brand": "勿动-系统回归测试",
+		"skuTitle": "1大1小, 1大1小门票\n畅玩不限时, 单次不限时",
+		"packageType": "park",
+		"packageTitle": "勿动-系统回归测试1大1小, 1大1小门票\n畅玩不限时, 单次不限时",
+		"packageItemTitle": null,
+		"infos": null,
+		"comments": [{
+			"icon": "https://static.caibeike.com/i/bd81ca353e2d8e4aeb37b6718be0a341-cUrsKn@!c150",
+			"title": "费用包含",
+			"comments": ["sass"]
+		}, {
+			"icon": "https://static.caibeike.com/i/7b45423fba4aa6bf7bb03217e3a2fc3f-VhLFb0@!c150",
+			"title": "项目说明",
+			"comments": []
+		}],
+		"shareModel": {
+			"title": "￥65 勿动-系统回归测试·65元抢「勿动-系统回归测试」价值230元1大1小1大1小门票畅玩不限时",
+			"comment": "原价￥230，1大1小, 1大1小门票畅玩不限时, 单次不限时，和我一起在彩贝壳拼团，既省钱又超值！~",
+			"url": "http://pre.caibeike.net/ts/groupon/item?itemCode=65127930&trace=cbk",
+			"image": "http://alpha-2115.caibeike.com/i/55b6d241d3c0292d4005f4f54fbae7f2-qt68Cs-bbfgwiCMhj2@!c150",
+			"needCallback": true,
+			"callbackParams": "groupon:65127930|domain:",
+			"channels": [1, 2, 4],
+			"wbImage": "http://alpha-2115.caibeike.com/i/55b6d241d3c0292d4005f4f54fbae7f2-qt68Cs-bbfgwiCMhj2@!s640",
+			"authGzh": "shanghai"
+		},
+		"expireRefund": 0,
+		"atLeastPersonGroupon": false,
+		"canChange": false,
+		"canRefund": false,
+		"canFreeChange": false,
+		"notices": [],
+		"beKkaUrl": null,
+		"appointType": 1,
+		"activityAdvert": null,
+		"moreItem": null,
+		"qrCode": {
+			"imageUrl": "http://cdn.caibeike.com/qr.html?l=logo&c=https://pre.caibeike.net/ms/user/wxGroupCode?randomCode=3FucpD",
+			"tip": "点击保存二维码，微信扫一扫申请进群",
+			"comment": "扫码申请加入彩贝壳统一1遛娃群，更多惊喜，更多优惠",
+			"randomCode": "3FucpD",
+			"activeCodeStatus": true,
+			"cityName": "统一1",
+			"joinGroupUrl": "https://pre.caibeike.net/ms/user/wxGroupCode?randomCode=3FucpD",
+			"btnTitle": "VIP微信群"
+		},
+		"caif": 0,
+		"openSaleGzhQrCode": null,
+		"gzhKey": "foshan",
+		"videoUrls": null
+	}
+}
+],
+"/web/mall/goods/detail":[
+    {
+        "sucess":
+        {
+            "area":"天津 天津市",
+            "beforePrice":"1.00",
+            "shopName":"第三方士大夫",
+            "goodsModel":"",
+            "goodsType":1,
+            "hxUid":"zs_hx1281050103976558625",
+            "introductionImages":[
+                {
+                    "introductionImage":"http://zsts-supply.oss-cn-shanghai.aliyuncs.com/2020-07-21/n0/1595324768238.jpg"
+                },
+                {
+                    "introductionImage":"http://zsts-supply.oss-cn-shanghai.aliyuncs.com/2020-07-21/n0/1595325177947.jpg"
+                }
+            ],
+            "price":"1.00",
+            "totalStore":444,
+            "imageUrls":[
+                {
+                    "imageUrl":"http://zsts-supply.oss-cn-shanghai.aliyuncs.com/2020-07-21/n0/1595325075433.jpg"
+                }
+            ],
+            "spuId":721,
+            "shareUrl":"http://192.168.2.200:9085/dashboard/share?id=721",
+            "shopId":14,
+            "priceRange":"1.00-1.00",
+            "goodsName":"3534535",
+            "parameters":[
+
+            ],
+            "totalSalesVolume":0
+        }
+    },
+    {
+    "error":{
+        "status":0,
+        "data":"",
+        "errorCode":1002,
+        "errorDesc":"成功",
+        "timestamp":0
+        }
+    }
+]
